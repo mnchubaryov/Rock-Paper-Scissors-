@@ -1,0 +1,83 @@
+.img {
+    height: 300px;
+    width:300px;
+}
+#wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 300px 100px 100px;  
+    margin-left:-7px;
+    margin-top: -10px;
+    margin-right:-7px;
+    grid-gap: 5px;
+
+    background-color:#B8D6D5;
+}
+
+#player {
+    grid-column: span 2;
+    grid-row: span 1;
+    background-color:#163c7a ;
+    }
+
+#reset {
+    /*thing one add a div that says reset in java script select div with quiery selector wherever u store it ad an eventlisterner, add all the things u ned to do to rest the game. */
+    grid-column: span 2;
+    grid-row: span 1;
+    background-color:#3A2C5F;
+    text-align: center;
+}
+
+#computer {
+    grid-column: span 2;
+    grid-row:span 1;
+    background-color:#56141E ;
+}
+
+#player-box {
+    grid-column: span 3;
+    grid-row: span 1;
+    color:black;
+    background-color: #163c7a;    
+    text-align: center;
+    padding-top: 15%;
+}
+
+#computer-box {
+    grid-column: span 3;
+    grid-row: span 1; 
+    background-color: #56141E;
+    text-align: center;
+    padding-top: 15%;
+}
+    
+#rock {
+    grid-row:span 1;
+    grid-column:span 1;
+    background-color:#9A5250;
+    text-align: center;
+}  
+
+#scissors {
+    grid-row: span 1;
+    grid-column: span 1;
+    background-color:#74A7BD;
+    text-align: center;
+}
+
+#paper {
+    grid-row: span 1;
+    grid-column: span 1;
+    background-color:#936488;
+    text-align: center;
+}
+
+#heading {
+    grid-column: span 6;
+    grid-row: span 1;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}

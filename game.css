@@ -81,3 +81,11 @@
 h1 {
     color: white;
 }
+
+#player {
+    text-align: center;
+}
+
+#computer{
+    text-align: center;
+}
